@@ -37,7 +37,7 @@ public class Topic_05_Web_Browser {
 		
 		
 		
-		
+		driver.close();
 		
 		
 		
