@@ -33,7 +33,7 @@ public class Topic_12_Alert {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-//	@Test
+	@Test
 	public void TC_01_Accept_Alert() {
 		
 		driver.get("https://automationfc.github.io/basic-form/index.html");
@@ -46,7 +46,7 @@ public class Topic_12_Alert {
 	    Assert.assertEquals(resultContent, "You clicked an alert successfully");
 	}
 
-	@Test
+//	@Test
 	public void TC_02_Confirm_Alert() {
 		
 		driver.get("https://automationfc.github.io/basic-form/index.html");
