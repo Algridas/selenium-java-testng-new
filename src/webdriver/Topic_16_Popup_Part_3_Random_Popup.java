@@ -48,7 +48,7 @@ public class Topic_16_Popup_Part_3_Random_Popup {
 //		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-//	@Test
+	@Test
 	public void TC_01_Random_IN_DOM_Java_Code_Geeks() {
 		
 		driver.get("https://www.javacodegeeks.com/");
@@ -74,7 +74,7 @@ public class Topic_16_Popup_Part_3_Random_Popup {
 		Assert.assertEquals(driver.findElement(By.xpath("//div[@role='main']/header//input[@name='s']")).getAttribute("value"), "Agile Testing Explained");
 	}
 
-//	@Test
+	@Test
 	public void TC_02_Random_IN_DOM() {
 		
 		driver.get("https://vnk.edu.vn/");
